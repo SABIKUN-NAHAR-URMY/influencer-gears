@@ -1,0 +1,123 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    margin: 87px 120px 50px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title{
+    width:20% ;
+}
+.nav{
+    width: 50%;
+}
+.nav ol{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+.container{
+    display: flex;
+}
+.start-text{
+    width: 50%;
+    font-size: 40px;
+    margin: 146px 0 0 120px;
+}
+.start-text p{
+    font-size: 17px;
+}
+button{
+    background-color: rgb(232, 38, 125);
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:25px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+}
+.camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+}
+.soci-medi{
+   display: flex;
+   justify-content: center;
+}
+.social-media{
+    width: 75%;
+    margin-top: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border: 1px solid rgb(216, 211, 211);
+    border-left-style: none;
+    border-right-style: none;
+}
+
+.social-media img{
+    padding: 30px 0 30px 0;
+}
+
+.popular-collection{
+    margin-top: 100px;
+}
+.pc-text{
+    text-align: center;
+}
+.card-section
+{
+    margin-top: 30px;
+    margin-left: 196px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.card{
+    width: 329px;
+    height: 476px;
+    background-color: white;
+    border: 1px solid rgb(253, 248, 248);
+    border-radius: 5px;
+    box-shadow: -1px 1px 30px 9px rgba(184, 180, 180, 0.75);
+    margin: 30px;
+}
+.card-img{
+    padding: 17px 15px 16px 14px;
+}
+.card-detail{
+    padding-left: 14px;
+}
+.see-more{
+    text-align: right;
+    padding-right: 110px;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    margin: 100px 165px;
+}
+.f-image{
+    
+}
+#join-now{
+    border-radius: 0;
+}
+.f-detail{
+    margin-left: 200px;
+}
